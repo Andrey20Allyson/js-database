@@ -1,0 +1,11 @@
+table users {
+  id: int auto pk
+  name: varchar
+  balance: float
+}
+
+table products {
+  id: int auto pk
+  name: varchar
+  price: float
+}
